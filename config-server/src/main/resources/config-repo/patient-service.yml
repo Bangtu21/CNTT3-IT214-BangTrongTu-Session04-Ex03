@@ -1,0 +1,13 @@
+server:
+    port: 8081
+
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/medicare_patient
+        username: root
+        password: 2102005
+
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
