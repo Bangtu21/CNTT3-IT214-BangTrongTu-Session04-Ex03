@@ -4,10 +4,10 @@ spring:
     profiles:
         active: native
 
-        cloud:
-            config:
-                server:
-                    native:
-                        search-locations: classpath:/config-repo
+    cloud:
+        config:
+            server:
+                native:
+                    search-locations: classpath:/config-repo
 server:
     port: 8888
